@@ -1,17 +1,14 @@
 .index{
 	background-image: url(w.jpg);
-	background-size: 114%;
-
-
+	
 }
-
 
 .s{
 	font-size: 32px;
 	text-align: center;
   transition: transform 1s linear;
-  
 }
+
 .s:hover{
   transform: translateX(20%);
 }
@@ -19,50 +16,44 @@
 .p{
     
 	float: right;
-	
-
 }
+
 .p a{
 	margin: 0 10px;
-
 }
+
 .wq{
 	font-size: 100px;
 	position: fixed;
 	top: 23%;
 	left: 9%;
 }
-@media screen and (max-width: 300px){
+
+@media screen and (max-width: 500px){
   .index{
     background: red;
   }
 }
 
-
-
-
-
 .rt {
 
 	background-image: url(w.jpg);
-  background-size: 114%;
-  
+ 
 }
+
 .xx{
   text-align: center;
 }
+
 .container1 {
   top: 22%;
-  left: 20%;
+  left: 3%;
   position:fixed;
   display: grid;
   grid-template-columns: 278px 335px 279px;
   grid-template-rows: 253px 250px;
   grid-gap: 21px;
 }
-
-
-
 
 .e1 {
   background-color: #1EAAFC;
@@ -205,10 +196,10 @@
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 83px;
   margin: -100px 0 0 -50px;
   padding: 50px;
-  padding-top: 125px;
+  padding-top: 103px;
   
   background: #9f53bf;
   list-style-type: none;
@@ -241,8 +232,7 @@
 }
 .contact1{
 	background-image: url(w.jpg);
-  background-size: 114%;
-
+  
 }
 
 
@@ -271,7 +261,7 @@
 }
 .port{
 	background-image: url(w.jpg);
-  background-size: 114%;
+;
   
 }
 
@@ -300,6 +290,15 @@
   border: 3px solid #171717;
 }
 .site{
+  width: 900px;
+  height: 900px;
 	background-image: url(w.jpg);
-  background-size: 114%;
+
+
+}
+  .uju{
+ font-size: 20px;
+  position: absolute;
+  top: 23%;
+  left: 9%;
 }
